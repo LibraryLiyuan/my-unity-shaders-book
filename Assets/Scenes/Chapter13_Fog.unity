@@ -946,12 +946,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1484923050}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c289d2c03d6caa74c9366220bd7f72c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  motionBlurShader: {fileID: 4800000, guid: 3f9b2a65b33a2764d8da45e5cd561063, type: 3}
+  motionBlurShader: {fileID: 4800000, guid: fad05a4eb50814a4686345b6ba8915ba, type: 3}
   blurAmount: 0.5
 --- !u!114 &1484923056
 MonoBehaviour:
@@ -960,7 +960,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1484923050}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c57f53b7019ed6b43a0aeaa48562714e, type: 3}
   m_Name: 
