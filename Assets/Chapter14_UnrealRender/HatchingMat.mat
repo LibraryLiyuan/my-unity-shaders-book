@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: HatchingMat
+  m_Shader: {fileID: 4800000, guid: c293d8ea2ab79924fb6c454d9ba27b21, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Hatch0:
+        m_Texture: {fileID: 2800000, guid: 9ae9e4928913e1f4ab53ba92238427df, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Hatch1:
+        m_Texture: {fileID: 2800000, guid: 3f9f00a89d8327d498b52aa0c0c17c91, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Hatch2:
+        m_Texture: {fileID: 2800000, guid: 3480bfc299a000b4aa3412138fd90d4e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Hatch3:
+        m_Texture: {fileID: 2800000, guid: 3a0f6cfaeb5e6a9458a42bf70c2c45f5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Hatch4:
+        m_Texture: {fileID: 2800000, guid: 6d5aa79b63f1259489644bb6c2eaf7eb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Hatch5:
+        m_Texture: {fileID: 2800000, guid: b6a356aa3994d344ebabdd71c8662b64, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Outline: 0.04
+    - _TileFactor: 2.26
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
