@@ -18,6 +18,8 @@ Shader "Assets/Chapter17_SurfaceShader/BumpedDiffuse"
         // Use shader model 3.0 target, to get nicer looking lighting
         #pragma target 3.0
 
+        #include "UnityStandardBRDF.cginc"
+
         sampler2D _MainTex;
         sampler2D _BumpMap;
 
