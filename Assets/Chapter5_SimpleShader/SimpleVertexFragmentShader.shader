@@ -13,12 +13,12 @@ Shader "Custom/SimpleVertexFragmentShader"
 
             float4 vert(float4 v : POSITION) : SV_POSITION
             {
-                return UnityWorldToClipPos(v);
+                return mul(unity_MatrixMVP,v);
             }
 
             fixed4 frag() : SV_Target
             {
-                return fixed4(1.0, 0.0, 0.0, 1.0);
+                return fixed4(1.0, 1.0, 1.0, 1.0);
             }
             ENDCG
         }
