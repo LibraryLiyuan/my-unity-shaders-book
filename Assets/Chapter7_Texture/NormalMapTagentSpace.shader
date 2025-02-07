@@ -64,6 +64,7 @@ Shader "Assets/Chapter7_Texture/NormalMapTagentSpace"
                 float3 binormal = cross(normalize(v.normal), normalize(v.tangent.xyz)) * v.tangent.w;
                 // construct a matrix which transform vectors from object space to tangent space
                 float3x3 rotation = float3x3(v.tangent.xyz, binormal, v.normal);
+                //TANGENT_SPACE_ROTATION;
                 o.lightDir = mul(rotation, ObjSpaceLightDir(v.vertex).xyz);
                 o.viewDir = mul(rotation, ObjSpaceViewDir(v.vertex).xyz);
                 return o;
