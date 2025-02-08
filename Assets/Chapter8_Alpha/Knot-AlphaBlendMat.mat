@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: AlphaTestBothSidedMat
-  m_Shader: {fileID: 4800000, guid: 9b969d304550a4d4aa91d6db7e6cdfc4, type: 3}
+  m_Name: Knot-AlphaBlendMat
+  m_Shader: {fileID: 4800000, guid: 78064dc4efacde34aaa9776d3c6c2458, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -21,12 +21,13 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 1ed2b4e13e6a3444e80b6da29fd16a1d, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Cutoff: 0.689
+    - _AlphaScale: 0.56
+    - _Cutoff: 0.5
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
